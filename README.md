@@ -1,2 +1,18 @@
-# bin_packing
-dutuugaa duurge
+### Download lib
+``` pip install binpacking ```
+### code
+```
+# don't know now, How to read exactly counts from excel
+import binpacking
+
+items = [2, 5, 5, 10, 2]
+
+# binpacking can sort 
+items.sort(reverse=True)
+
+# 12 is the volume count
+armaturs = binpacking.to_constant_volume(b,12)
+print(armaturs) 
+```
+example result 
+```[[5, 5, 2], [10, 2]]```
