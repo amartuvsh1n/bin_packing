@@ -1,5 +1,21 @@
 ### Download lib
 ``` pip install binpacking ```
+
+### excel file shoud be like below
+```
+volume	count	length
+6.2	    2	    	12
+5.15	9		    12
+4.8	    48		    12
+3.75	9		    12
+6.36	26		    12
+5.31	9		    12
+4.96	36		    12
+3.91	9		    12
+```
+
+
+
 ### Run app
 ``` 
 git clone https://github.com/amartuvsh1n/bin_packing.git
