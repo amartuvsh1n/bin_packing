@@ -19,7 +19,7 @@ volume	count	length
 ### Run app
 ``` 
 git clone https://github.com/amartuvsh1n/bin_packing.git
-pip install pandas binpacking
+pip install pandas binpacking openpyxl
 python main.py 
 ```
 
